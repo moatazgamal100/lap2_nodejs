@@ -1,0 +1,113 @@
+#output {
+    margin-top: 20px;
+}
+
+.car {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.car .model {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.car .licenseNumber {
+    color: #666;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#addCarForm {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#addCarForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#addCarForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addCarForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addCarForm button:hover {
+    background-color: #45a049;
+}
+
+#getCars,
+#addCar {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#getCars:hover,
+#addCar:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#output ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#output li {
+    margin-bottom: 10px;
+}
+
+#output li button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#output li button:hover {
+    background-color: #c82333;
+}

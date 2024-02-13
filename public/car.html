@@ -1,0 +1,24 @@
+<!-- car.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Car Manager</h1>
+    <form id="addCarForm">
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model"><br><br>
+        <label for="licenseNumber">License Number:</label>
+        <input type="text" id="licenseNumber" name="licenseNumber"><br><br>
+        <button type="button" onclick="addCar()">Add Car</button>
+    </form>
+
+
+    <div id="carList" class="mt-4"></div>
+    <script src="script.js"></script>
+</body>
+</html>
